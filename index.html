@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Project 1</title>
+  <link rel="stylesheet"  type="text/css" href="style.css">    
+</head>
+
+  <body>
+    <div class="table-of-contents">
+      <h1>Table of Contents</h1>
+      <ol>
+        <li class="table-of-contents-lesson"><a href="#lesson-1"> Lesson 1: Web Basics and HTML</a>
+          <ul>
+            <li><a href="#lesson-1-1">How the Web Work</a></li>
+            <li><a href="#lesson-1-2">HTML</a></li>
+            <li><a href="#lesson-1-3">Tags and Elements</a></li>
+            <li><a href="#lesson-1-4">Inline vs. Block Elements</a></li>
+          </ul>
+        </li>
+        <li class="table-of-contents-lesson"><a href="#lesson-2"> Lesson 2: Using HTML to Create Structured Documents</a>
+          <ul>
+            <li><a href="#lesson-2-1">The "tree-like structure" of HTML</a></li>
+            <li><a href="#lesson-2-1">Text Editors</a></li>
+          </ul>          
+        </li>
+        <li class="table-of-contents-lesson"><a href="#lesson-3">Lesson 3: Addition of CSS to HTML Document</a>
+          <ul>
+          <li><a href="#lesson-3-1">CSS</a></li>
+          <li><a href="#lesson-3-2">Benefits of CSS Avoiding Repetition</a></li>
+          </ul>
+        </li>
+     </ol>
+    </div>
+
+    <h1>
+      Key Learnings
+    </h1>
+      <div class="lesson">
+        <h2 id="lesson-1">Lesson 1: Web Basics and HTML</h2>
+
+          <div class="concept" id="lesson-1-1">
+            <div class="concept-title">How the Web Works</div>
+            <div class="concept-description"> 
+              <p>The <em>Internet</em> is a global system of interconnected 
+              computer networks that interchange data. When an individual goes to 
+              a website like www.espn.go.com, their computer sends a <em>HTTP Request</em> 
+              to a <em>server.</em> The server finds the appropriate HTML document and sends
+              it back to the user's computer where a web browser interprets the page and
+              displays it on the user's screen. Watch this
+              <a href="https://www.udacity.com/course/viewer/#!/c-nd000/l-3873828673/e-48329854/m-48480496">video</a>
+              for a better explanation.</p>              
+            </div>
+          </div>
+
+          <div class="concept" id="lesson-1-2">
+            <div class="concept-title">HTML</div>
+            <div class="concept-description">
+              <p>HTML is an ancornym that stands for <em>Hypertest Markup Language</em>. HTML documents make
+              up the majority of the content on the web. HTML documents contain <em>text content</em> which
+              describes "what you see" and <em>markup</em> which describes "how it looks". This 
+              <a href="https://www.udacity.com/course/viewer/#!/c-nd000/l-3873828673/m-48724340">video</a>
+              provides a good overview.</p>            
+            </div>
+          </div>
+
+          <div class="concept" id="lesson-1-3">
+            <div class="concept-title">Tags and Elements</div>
+            <div class="concept-description"> 
+              <p>HTML documents are made of HTML <b>elements</b>. When writing HTML, we tell browsers the
+              type of each element by using HTML <b>tags</b>. This 
+              <a href="https://www.udacity.com/course/viewer/#!/c-nd000/l-3873828673/m-48723444">video</a>
+              differentiates the two.</p>
+            </div>
+          </div>
+
+          <div class="concept" id="lesson-1-4">
+            <div class="concept-title">Inline vs. Block Elements</div>
+            <div class="concept-description">
+              <p>HTML elements are either <b>inline</b> or <b>block</b>. Block elements form an "invisible box" 
+              around the content inside of them. </p>
+            </div>
+          </div>
+
+      </div>
+
+      <div class="lesson">
+        <h2 id="lesson-2">Lesson 2: Using HTML to Create Structured Documents</h2>
+
+        <div class="concept" id="lesson-2-1">
+          <div class="concept-title">The "tree-like structure" of HTML</div>
+          <div class="concept-description">
+            <p>The <b>DOM</b> (Document Object Model) is a way to refer to HTML elements as objects. The 
+            "tree-like structure" of the page comes about because elements can be <em>nested</em> within
+            each other. In a browser, this structure shows up as a series of nested boxes. There are 
+            boxes inside of boxes inside of boxes, and so on...</p>
+          </div>
+        </div>
+
+        <div class="concept" id="lesson-2-2">
+          <div class="concept-title">Text Editors (for programming)</div>
+          <div class="concept-description">
+            <p> Programmers use special text editors (i.e. Sublime Text). Some text editors will automatically
+            generate a closing HTML tag when you write an opening tag evidently making the programmer's job a
+            little bit easier.</p> 
+          </div> 
+        </div>
+      </div>
+
+      <div class="lesson">
+        <h2 id="lesson-3">Lesson 3: Addition of CSS to HTML Document</h2>
+        <div class="concept" id="lesson-3-1">
+          <div class="concept-title">CSS</div>
+          <div class="concept-description">
+            <p>CSS stands for Cascading Style Sheets and it is code written to control the "style" of the HTML
+            elements. You can include CSS styling by:</p>
+              <BLOCKQUOTE>
+              1. Write CSS in the "head" of your HTML.<br>
+              2. Link your HTML to a separate CSS file. (This method is more organized when working on larger projects).
+              </BLOCKQUOTE>
+          </div>
+        </div>
+
+        <div class="concept" id="lesson-3-2">
+          <div class="concept-title">Benefits of CSS Avoiding Repetition</div>
+          <div class="concept-description">
+            <p>Using CSS to avoid repetition is very important for a number of reasons. The programmer becomes
+            more <b>efficient</b> because they do not have to write the same thing multiple times. Hence there is less code
+            to write and it's more readable. If the programmer is copying and pasting certain style attributes into
+            many HTML elements it can possible lead to errors when the programmer decides to modify something.
+            </p>
+            <p>
+            With CSS, the programmer can assign multiple elements the same class and then specify a style for that class.
+            in only one location. Giving every one of those element the same <b>Consistent</b> look and being able 
+            to easily modify the style and avoiding repetition.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+      <p><a href="http://jigsaw.w3.org/css-validator/check/referer">
+      <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" /></a>
+      </p>
+      </div>
+  </body>
+</html>
